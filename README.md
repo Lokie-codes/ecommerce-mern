@@ -35,6 +35,15 @@ A full-stack ecommerce application built with MongoDB, Express.js, React, and No
 
 ## Installation
 
+### Quick Start
+
+To install all dependencies at once:
+```bash
+npm run install:all
+```
+
+Or follow the manual installation steps below:
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Lokie-codes/ecommerce-mern.git
@@ -78,6 +87,25 @@ cd backend
 npm run dev
 ```
 The backend will run on http://localhost:5000
+
+### Seed the Database (Optional)
+
+To populate the database with sample users and products:
+```bash
+cd backend
+npm run seed
+```
+
+This will create:
+- Admin user: admin@example.com / admin123
+- Regular user: john@example.com / john123
+- 6 sample products
+
+To clear the database:
+```bash
+cd backend
+npm run seed:destroy
+```
 
 ### Start the Frontend Development Server
 ```bash

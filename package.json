@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-mern",
+  "version": "1.0.0",
+  "description": "Full-stack MERN ecommerce application",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "seed:destroy": "npm run seed:destroy --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lokie-codes/ecommerce-mern.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lokie-codes/ecommerce-mern/issues"
+  },
+  "homepage": "https://github.com/Lokie-codes/ecommerce-mern#readme"
+}
